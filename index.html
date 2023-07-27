@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'></link>  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+  <link rel="icon" href="./static/battle-net.svg">
+  <link rel="stylesheet" href="main.css">
+  <title>Tarifazo calculator</title>
+</head>
+<body>
+  <div class="container">
+    <div class="info">
+      <div class="info__title">
+        <h1>
+          <i class="fa-regular fa-comment"></i>
+          Sobre el proyecto
+        </h1>
+      </div>
+      <div class="info__description">
+        <p>Debido a la gran cantidad de impuesto a los pantalones bombachos que se ven casi mensualmente en argentina, me veo en la obligacion de crear esta calculadora para blizzard y solo para argentina<b class="highlightedPhrase" id="estimatedCostMessage">. El precio puede tener sus infimas variaciones por lo que seria recomendable tener un poco mas del monto estimado(si llega a subir o bajar el impuesto lo ire actualizando(?)) </b>.</p>
+      </div>
+      <div class="info__help">
+        <button class="help__button">
+          > Instrucciones
+        </button>
+      </div>
+    </div>
+    <div class="app">
+      <div class="app__title">
+        <h1 class="title">
+          <i class="fab fa-battle-net fa-spin fa-xs"></i>
+          Bnet Calculator
+        </h1>
+      </div>
+      <div class="app__description">
+        <p class="description__label">Ingrese un Monto</p>
+      </div>
+      <div class="app__calculator">
+        <input type="text" inputmode="numeric" class="costEntry" placeholder="$100.00" autocomplete="off">
+        <p class="costResult">
+          <span class="cost"></span>
+        </p>
+        <button class="costButton">Calcular</button>
+      </div>
+      <div class="app__footer">
+        <small class="more-info">
+          Made by
+          <a href=https://github.com/emaaa182>Emanuel Acosta</a>
+        </small>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="icon">
+        <a href="https://github.com/emaaa182">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <div class="icon">
+        <a href="https://cristian-emanuel-portfolio.netlify.app/">
+          <i class="fa-solid fa-earth-americas"></i>
+        </a>
+      </div>
+      <div class="icon">
+        <a href="https://www.instagram.com/emaaa182/">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://kit.fontawesome.com/eb66d747aa.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>  
+  <script src="./app.js"></script>
+</body>
+</html>
