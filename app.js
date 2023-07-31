@@ -33,12 +33,12 @@ function showBill()
     containerToShow.innerHTML = "El precio es ARS<span class='cost cheaper'>&nbsp;$" + parseFloat(cost)  ;
   }
 
-  else if((cost >= 500) && (cost < 5000)) {
+  else if((cost >= 500) && (cost <= 2000)) {
 
     containerToShow.innerHTML = "El precio es ARS<span class='cost mediumCost'>&nbsp;$" + parseFloat(cost) ;
   }
 
-  else if((cost >= 10000)) {
+  else if((cost >= 3000)) {
 
     containerToShow.innerHTML = "El precio es ARS<span class='cost expensive'>&nbsp;$" + parseFloat(cost);
   }
