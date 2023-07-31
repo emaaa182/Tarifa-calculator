@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="main.css">
   <title>Tarifazo calculator</title>
 </head>
-<body>
+<body onClick="PlayAudio()">
   <div class="container">
     <div class="info">
       <div class="info__title">
@@ -73,7 +73,7 @@
         </a>
       </div>
     </div>
-    <audio autoplay controls loop>
+    <audio id="audio1">
       <source src="/static/muchachos.mp3" type="audio/mpeg">
     </audio>
     
@@ -81,5 +81,10 @@
   <script src="https://kit.fontawesome.com/eb66d747aa.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>  
   <script src="./app.js"></script>
+  <script>
+    function PlayAudio(){
+      document.getElementById("audio1").play();
+    }
+  </script>
 </body>
 </html>
