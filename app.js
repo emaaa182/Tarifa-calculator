@@ -48,7 +48,7 @@ function showBill()
 function help() {
   return swal({
     title: "Instrucciones",
-    html: "<br><div class='steps'><b>1.</b>Vas a la app de blizzard y te fijas el precio del juego<br></div><div class='steps'><b>2.</b> Escribís el precio en la calculadora<br></div><div class='steps'><b>3.</b> Presionás en 'Calcular'</div><span class='separator'></span>Listo. Te devuelve el precio final en cuestion",
+    html: "<br><div class='steps'><b>1.</b>Vas a la app de blizzard(tambien es el mismo proceso para steam y psn) y te fijas el precio del juego<br></div><div class='steps'><b>2.</b> Escribís el precio en la calculadora<br></div><div class='steps'><b>3.</b> Presionás en 'Calcular'</div><span class='separator'></span>Listo. Te devuelve el precio final en cuestion",
     confirmButtonText: "Cerrar",
     type: "info",
     customClass: "helpAlert"
